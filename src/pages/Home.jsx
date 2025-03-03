@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
+import CoreValues from "../components/CoreValues";
+import BrandsCar from "../components/BrandsCar";
 
 const Home = () => {
   const fadeIn = {
@@ -71,6 +73,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <BrandsCar/>
+      <CoreValues/>
 
       {/* Services Section */}
       <motion.section 

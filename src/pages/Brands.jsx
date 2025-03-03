@@ -15,7 +15,7 @@ const BrandsPage = () => {
     },
     {
       name: 'HPE',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hewlett_Packard_Enterprise_logo.svg/2560px-Hewlett_Packard_Enterprise_logo.svg.png',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/4/46/Hewlett_Packard_Enterprise_logo.svg',
       description: 'Hewlett Packard Enterprise delivers high-performance solutions for cloud environments and data centers.'
     },
     {
@@ -25,22 +25,22 @@ const BrandsPage = () => {
     },
     {
       name: 'Jabra',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Jabra_logo.svg/2560px-Jabra_logo.svg.png',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Jabra_logo.svg',
       description: 'Specializes in audio equipment, headsets, and video conferencing solutions for businesses and consumers.'
     },
     {
       name: 'Poly',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Poly_Inc_logo.svg/2560px-Poly_Inc_logo.svg.png',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Poly_Inc._Logo.svg',
       description: 'Creates premium audio and video products for effective collaboration in the modern workplace.'
     },
     {
       name: 'Bose',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bose_logo.svg/2560px-Bose_logo.svg.png',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Bose_logo.svg',
       description: 'Known for high-quality audio equipment including speakers, headphones, and professional sound systems.'
     },
     {
       name: 'Grandstream',
-      logo: 'https://www.grandstream.com/hubfs/grandstream-logo.png',
+      logo: 'https://iconape.com/wp-content/files/xl/348928/svg/348928.svg',
       description: 'Manufactures IP communication solutions including IP phones, IP PBXs, and video conferencing systems.'
     },
     {
@@ -55,7 +55,7 @@ const BrandsPage = () => {
     },
     {
       name: 'JBL',
-      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/JBL_logo.svg/2560px-JBL_logo.svg.png',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/JBL_logo.svg',
       description: 'Provides premium speakers, headphones, and audio solutions for consumers and professional applications.'
     },
     {

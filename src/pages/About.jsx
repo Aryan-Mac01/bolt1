@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { FaCheckCircle, FaLightbulb, FaHandshake, FaChartLine, FaGlobe } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import PageTransition from "../components/PageTransition";
 
 const About = () => {
   const controls = useAnimation();
@@ -69,25 +70,34 @@ const About = () => {
   };
 
   return (
-    <div className="pt-24 overflow-hidden">
+    <PageTransition>
+    <div className="mt-20 overflow-hidden">
       {/* Hero Section */}
       <motion.section 
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="py-16 bg-gray-50"
+        className="py-16 bg-gray-50 bg-gradient-to-r from-blue-900 to-blue-700"
       >
         <div className="container-custom">
-          <motion.div variants={fadeIn} className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-black-900 mb-6">About Optimity</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <motion.div variants={fadeIn} className="text-center mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About Optimity</h1>
+            <p className="text-xl text-white max-w-3xl mx-auto">
               A leading IT trading company with over 16 years of experience in the industry.
             </p>
           </motion.div>
-          
+        </div>
+      </motion.section>
+      <motion.section 
+        initial="hidden"  
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="py-16"
+      >
+          <div className="container-custom">
           <motion.div 
             variants={fadeIn}
-            className="bg-white p-8 rounded-xl shadow-lg"
+            className="bg-white p-16 rounded-xl shadow-lg"
           >
             <p className="text-lg text-gray-700 mb-6">
               Optimity is a leading IT trading company specializing in the sourcing, distribution, 
@@ -109,8 +119,9 @@ const About = () => {
               clients, helping them stay ahead in the fast-paced world of technology.
             </p>
           </motion.div>
-        </div>
-      </motion.section>
+          </div>
+          </motion.section>
+      
 
       {/* Our Journey Section */}
       <motion.section 
@@ -494,6 +505,7 @@ const About = () => {
       
       </motion.section>
     </div>
+    </PageTransition>
   );
 };
 

@@ -284,23 +284,6 @@ const ContactPage = () => {
         </section>
 
         {/* Business Hours */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <AnimatedSection className="max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl font-bold mb-6">Business Hours</h2>
-              <div className="inline-block bg-gray-50 rounded-lg p-6 shadow-sm">
-                <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-left">
-                  <div className="font-medium">Monday - Thursday:</div>
-                  <div>9:00 AM - 6:00 PM</div>
-                  <div className="font-medium">Friday:</div>
-                  <div>9:00 AM - 1:00 PM</div>
-                  <div className="font-medium">Saturday - Sunday:</div>
-                  <div>Closed</div>
-                </div>
-              </div>
-            </AnimatedSection>
-          </div>
-        </section>
       </div>
     </PageTransition>
   );
