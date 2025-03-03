@@ -277,7 +277,6 @@ const BrandsPage = () => {
                       className="w-full h-auto object-cover"
                     />
                   </div>
-                  <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-blue rounded-lg -z-10"></div>
                 </div>
               </AnimatedSection>
             </div>

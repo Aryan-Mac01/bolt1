@@ -36,11 +36,13 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <div className="relative w-full h-screen mt-[100px] mb-[140px]">
-        <div className="relative w-auto h-[700px] shadow-2xl bg-white/30 rounded-3xl mx-[100px] pt-[100px] max-md:mx-[20px] max-md:h-auto max-md:pt-[50px]">
+        <div className="relative w-auto h-[700px] shadow-2xl bg-white rounded-3xl mx-[100px] pt-[100px] max-md:mx-[20px] max-md:h-auto max-md:pt-[50px]">
           <div className="absolute w-[98%] h-[96%] bg-white shadow-2xl rounded-3xl left-[13px] top-[13px] flex gap-[50px] max-md:flex-col max-md:h-auto max-md:static max-md:w-auto max-md:p-4">
             <div 
               className="w-full h-[97%] rounded-3xl shadow-lg mt-[10px] ml-[10px] bg-cover bg-center flex items-center justify-center max-md:h-[300px] max-md:m-0 max-md:mb-4"
-              style={{ backgroundImage: "url('https://dl.dropboxusercontent.com/scl/fi/btuqnop2og68m2qr946go/artistic-blurry-colorful-wallpaper-background.jpg?rlkey=s2ueauvas02n5upfkvr2d6hg2&e=1&st=ojfe90jq&dl=0')"}}
+              style={{ 
+                backgroundImage: "linear-gradient(rgba(255, 255, 220, 0.7), rgba(255, 255, 150, 0)), url('https://dl.dropboxusercontent.com/scl/fi/btuqnop2og68m2qr946go/artistic-blurry-colorful-wallpaper-background.jpg?rlkey=s2ueauvas02n5upfkvr2d6hg2&e=1&st=ojfe90jq&dl=0')"
+              }}
             >
               <img className="w-[400px] max-md:w-[250px]" src="https://optimityinternationallc.netlify.app/Logo.png" alt="Logo" />
             </div>
@@ -73,6 +75,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
       <BrandsCar/>
       <CoreValues/>
 
