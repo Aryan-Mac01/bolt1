@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
 import CoreValues from "../components/CoreValues";
-import BrandsCar from "../components/BrandsCar";
+import BrandsCar from "../components/Brands/BrandsCar";
 
 const Home = () => {
   const fadeIn = {
